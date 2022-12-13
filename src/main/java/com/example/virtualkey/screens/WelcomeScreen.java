@@ -10,6 +10,7 @@ import com.example.virtualkey.services.ScreenService;
 public class WelcomeScreen implements Screen {
 
 	private String welcomeText = "Welcome to LockedMe.com!";
+	privare String welcome = "Designed and developed by Varun Kulkarni" ;
 	private ArrayList<String> options = new ArrayList<>();
 
 	public WelcomeScreen() {
@@ -21,6 +22,7 @@ public class WelcomeScreen implements Screen {
 
 	public void introWS() {
 		System.out.println(welcomeText);
+		System.out.println(welcome);
 		System.out.println("\n");
 		Show();
 	}
